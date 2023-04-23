@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock Quote Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">StockQuote</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <form id="search-form">
+        <input type="search" id="search-input" placeholder="Search stocks...">
+    </form>
+</header>
+<main>
+    <div class="main-content">
+        <!-- Display stock quotes, charts, and financial data here -->
+                <!-- Stock Quotes -->
+        <div class="stock-quotes">
+            <h2>Stock Quotes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Company Name</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                        <th>% Change</th>
+                    </tr>
+                </thead>
+                <tbody id="stock-quotes-table">
+                    <!-- Stock quotes will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Stock Chart -->
+        <div class="stock-chart">
+            <h2>Stock Chart</h2>
+            <div id="stock-chart-container">
+                <!-- Stock chart will be rendered here -->
+            </div>
+        </div>
+
+        <!-- Financial Data -->
+        <div class="financial-data">
+            <h2>Financial Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Financial Metric</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody id="financial-data-table">
+                    <!-- Financial data will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <div class="sidebar">
+        <!-- Show news feeds, watchlists, or trending stocks here -->
+    </div>
+</main>
+<footer>
+    <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>

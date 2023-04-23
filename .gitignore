@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Ignore node_modules folder if you use npm or yarn to manage dependencies
+node_modules/
+
+# Ignore build and distribution folders
+/dist/
+/build/
+
+# Ignore environment files
+.env
+
+# Ignore IDE-specific settings
+.vscode/
+.idea/
+*.iml
